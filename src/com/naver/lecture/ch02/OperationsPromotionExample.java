@@ -50,7 +50,7 @@ public class OperationsPromotionExample {
 		
 		short aaa = 1;
 		short bbb = 2;
-		short ccc = (short) (aaa + bbb);
+		short ccc =  (aaa + bbb);
 		
 		
 	}
