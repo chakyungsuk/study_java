@@ -20,9 +20,17 @@ public class ConditionLoop {
 //		
 //		------	조건이 많은 경우
 //				if (조건식){
+//					if(조건식) {
 //		
+//					} else {
+//						
+//					}
 //				} else if (조건식) {
-//					
+//					if (조건식) {
+//						
+//					} else {
+//						
+//					}
 //				} else if (조건식) {
 //					
 //				} else {
@@ -43,6 +51,14 @@ public class ConditionLoop {
 //			break
 //			
 //			continue
+		
+//		-- switch
+//		switch -> case -> break -> default - break
+		
+		
+		
+		
+		
 	}
 
 }
