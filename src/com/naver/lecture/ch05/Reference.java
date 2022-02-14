@@ -16,16 +16,19 @@ public class Reference {
 //		참조형도 초기화 null
 //		NullpointerException : npe
 //		사용(대입, 연산)이 불가
-		==, != 과 같은 관계 연산자는 사용할 수 있다.
-				
-		String : 문자열 저장을 위한 객체
-		String str1 = null;
-		String str2 = "";
+//		==, != 과 같은 관계 연산자는 사용할 수 있다.
+//				
+//		String : 문자열 저장을 위한 객체
+//		String str1 = null;
+//		String str2 = "";
+//		
+//		if(str1 == str2 ) { //주소값
+//			
+//		}
+//		str1.equals(str2);  //문자열
 		
-		if(str1 == str2 ) { //주소값
-			
-		}
-		str1.equals(str2);  //문자열
+		
+		
 	}
 
 }
