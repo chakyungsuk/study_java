@@ -40,7 +40,7 @@ public class ConditionLoop {
 		
 		
 //		switch
-//		 	switch -> case -> break -> default - break
+//		 	switch -> case - break -> default - break
 		
 		
 //	 	반복문
@@ -54,7 +54,6 @@ public class ConditionLoop {
 //			
 //			continue
 		
-//		
 		
 		
 		
