@@ -27,7 +27,13 @@ public class Reference {
 //		}
 //		str1.equals(str2);  //문자열
 		
-//		배열
+//		배열 : 동일 데이터들의 집합
+//		예( 1학연2반 학생들이 수학 성적 (15명)
+//		78,44,90,97,100...88 (15개)		
+		int mathScore010201 = 78;
+		int mathScore010201 = 78;
+		int mathScore010201 = 78;
+		
 //		선언
 		
 	}
