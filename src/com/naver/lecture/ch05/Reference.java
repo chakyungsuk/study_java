@@ -27,7 +27,8 @@ public class Reference {
 //		}
 //		str1.equals(str2);  //문자열
 		
-		
+//		배열
+//		선언
 		
 	}
 
