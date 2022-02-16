@@ -35,6 +35,12 @@ public class Function {
 		return sum2;
 	}
 	
+	public static int d(int a, int b ) {
+		
+		int sum3 = a + b;
+		
+		return sum3;
+	}
 	
 	
 	
