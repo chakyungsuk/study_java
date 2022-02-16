@@ -3,7 +3,7 @@ package com.naver.lecture.ch05;
 import java.awt.peer.SystemTrayPeer;
 import java.util.Calendar;
 
-public class EnumMethodExample {
+public class EnumWeekExample {
 
 	public static void main(String[] args) {
 		
