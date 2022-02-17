@@ -5,10 +5,15 @@ public class Car {
 	// field
 		String company = "Volvo";
 		String model = "XC90";
-		String color = "darkblue";
+		String color = "DarkBlue";
 	
 		int maxSpeed = 240; 
 		int Speed = 0;
-	// method
+		
 	
+	// method
+		
+		
+		
+		
 }
