@@ -16,6 +16,7 @@ public class CarExample {
 		
 		System.out.println("speed : " + car.speed);   // 100
 		
+	
 		if(car.speed >= car.maxSpeed) {
 			System.out.println("속도가 높습니다.");
 		} else {
