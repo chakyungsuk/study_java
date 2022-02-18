@@ -23,6 +23,19 @@ public class CarExample {
 			System.out.println("속도가 낮습니다.");
 		};
 		
+		upDown(car.maxSpeed, car.speed);
+		
+		car.speed = 100;
+		
 	}
-
+	public static void upDown(int maxSpeed, int speed) {
+		if(maxSpeed < speed) {
+			System.out.println("스피드가 낮습니다.");
+		} else if(maxSpeed > speed) {
+			System.out.println("스피드가 높습니다.");
+		} else {
+			System.out.println("스피드가 동등합니다.");
+		};
+		
+	}
 }
