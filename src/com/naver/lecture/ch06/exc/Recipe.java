@@ -1,4 +1,4 @@
-package com.naver.lecture.ch06;
+package com.naver.lecture.ch06.exc;
 
 public class Recipe {
 

@@ -1,4 +1,4 @@
-package com.naver.lecture.ch06;
+package com.naver.lecture.ch06.exc;
 
 public class Car {
 
@@ -8,6 +8,9 @@ public class Car {
 		String color = "DarkBlue";
 		int maxSpeed = 240; 
 		int Speed = 0;
+		int a = 1;
+		int b = 2;
+		int c = 3;
 		
 	
 	// method : 함수 : function
@@ -15,7 +18,7 @@ public class Car {
 	// 속도올리기
 		public int speedUp(int a) {
 			
-			int finalSpeed = 0;
+			int finalSpeed = a;
 			return finalSpeed;
 		}
 		
