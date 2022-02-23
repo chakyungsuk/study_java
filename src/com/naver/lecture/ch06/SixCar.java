@@ -1,13 +1,13 @@
 package com.naver.lecture.ch06;
 
-public class SixthCar {
+public class SixCar {
 
 	//필드
 	String model;
 	int speed;
 	
 	//생성자
-	public SixthCar(String model) {
+	public SixCar(String model) {
 		this.model = model;
 	}
 	

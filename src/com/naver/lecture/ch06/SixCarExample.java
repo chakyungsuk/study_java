@@ -4,8 +4,8 @@ public class SixCarExample {
 
 	public static void main(String[] args) {
 
-		SixthCar mycar = new SixthCar()
-		SixthCar yourcar = new SixthCar()
+		SixCar mycar = new SixCar();
+		SixCar yourcar = new SixCar();
 				
 		mycar.run();
 		yourcar.run();
