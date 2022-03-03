@@ -1,6 +1,6 @@
 package com.naver.lecture.ch07.banana;
 
-public class BananaChildPublic {
+public class BananaChildPublic extends Banana{
 
 	public String strBananaChildPublic = "strBananaChildPublic";
 	protected String strBananaChildPublic2 = "strBananaChildPublic2";

@@ -1,8 +1,8 @@
 package com.naver.lecture.ch07.apple;
 
-import com.tt.lecture.ch07.banana.Banana;
-import com.tt.lecture.ch07.banana.BananaChildPublic;
-import com.tt.lecture.ch07.banana.BlueberryChildPublic;
+import com.urdomain.lecture.ch07.banana.Banana;
+import com.urdomain.lecture.ch07.banana.BananaChildPublic;
+import com.urdomain.lecture.ch07.banana.BlueberryChildPublic;
 
 public class AppleExample {
 
@@ -137,19 +137,20 @@ public class AppleExample {
 		
 		Banana banana = new Banana();		// public
 		
+		
 		banana.strBanana = "newBanana";	// public
-		banana.strBanana2 = "newBanana";	// protected
-		banana.strBanana3 = "newBanana";	// default
+		banana.strBanana2 = "newBanana";	// protected  : error
+		banana.strBanana3 = "newBanana";	// default  : error
 		banana.strBanana4 = "newBanana";	// private : error
 		
 		banana.printBanana();		// public
-		banana.printBanana2();	// protected
-		banana.printBanana3();	// default
+		banana.printBanana2();	// protected  : error
+		banana.printBanana3();	// default  : error
 		banana.printBanana4();	// private : error
 		
 		
 //		--------------		
-		BananaChildPublic bananaChildPublic = new BananaChildPublic();
+		BananaChildPublic bananaChildPublic = new BananaChildPublic();	// public : 부모객체의 필드와 메소드 사용은 불가, 해당 클래스의 public 필드와 메서드만 사용 가능
 		
 		bananaChildPublic.strBanana = "newBanana";	// public
 		bananaChildPublic.strBanana2 = "newBanana";	// protected
@@ -173,7 +174,7 @@ public class AppleExample {
 		
 
 //		--------------	
-		BananaChildDefault bananaChildDefault = new BananaChildDefault();
+		BananaChildDefault bananaChildDefault = new BananaChildDefault();	// default : 다른패키지의 default 클래스는 객체생성 불가
 		
 		bananaChildDefault.strBanana = "newBanana";	// public
 		bananaChildDefault.strBanana2 = "newBanana";	// protected
@@ -213,7 +214,7 @@ public class AppleExample {
 		
 		
 //		--------------		
-		BlueberryChildPublic blueberryChildPublic = new BlueberryChildPublic();
+		BlueberryChildPublic blueberryChildPublic = new BlueberryChildPublic();		// public
 		
 		blueberryChildPublic.strBlueberry = "newBlueberry";	// public
 		blueberryChildPublic.strBlueberry2 = "newBlueberry";	// protected

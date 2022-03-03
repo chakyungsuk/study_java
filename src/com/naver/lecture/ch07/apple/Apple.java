@@ -5,7 +5,7 @@ public class Apple {
 	public String strApple = "strApple";
 	protected String strApple2 = "strApple2";
 	String strApple3 = "strApple3";		// default
-	String strApple4 = "strApple4";
+	private String strApple4 = "strApple4";
 
 	
 	public void printApple() {
@@ -16,8 +16,11 @@ public class Apple {
 	}
 	void printApple3() {
 		System.out.println("Apple3");
+		
+//		private는 내부에서만 사용 가능
+		this.printApple4();
 	}
-	void printApple4() {
+	private void printApple4() {
 		System.out.println("Apple4");
 	}
 	
