@@ -1,18 +1,18 @@
 package com.naver.lecture.ch08;
 
-public class Audio implements RemoteControl {
+public class Television implements RemoteControl{
 
 	//필드
-	public int volume;
+	private int volume; 
 	
 	@Override
 	public void turnOn() {
-		System.out.println("Audio를 켭니다.");
+		System.out.println("TV를 켭니다");
 	}
 
 	@Override
 	public void turnOff() {
-		System.out.println("Audio를 끕니다");
+		System.out.println("TV를 끕니다");
 	}
 
 	@Override
@@ -24,7 +24,7 @@ public class Audio implements RemoteControl {
 		} else {
 			this.volume = volume;
 		}
-		System.out.println("현재 Audio 볼륨 : " + volume);
+		System.out.println("현재 TV 볼륨 : " + volume);
 	}
 
 	public int getVolume() {
