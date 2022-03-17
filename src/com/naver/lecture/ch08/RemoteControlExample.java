@@ -11,6 +11,8 @@ public class RemoteControlExample {
 //		audio.turnOff();
 		television.turnOff();
 		television.turnOn();
+		television.setMute(false);
+		television.setVolume(100);
 		
 		
 		System.out.println();
